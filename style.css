@@ -21,9 +21,9 @@ header {
     padding: 20px 50px;
     margin-bottom: 20px;
     justify-content: center;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .navbar1 ul {
@@ -195,6 +195,15 @@ h1 {
     margin-top: 60px;
 }
 
+.image-skiils {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .texts {
     height: 373px;
     margin-top: 50px;
@@ -220,38 +229,41 @@ h1 {
 }
 
 .using-now {
-    width: 1004px;
     height: 380px;
     opacity: 1;
-    margin-left: 30vh;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .text-h1 {
-    text-align: left;
     letter-spacing: 8px;
-    margin-top: 20px;
 }
 
 .image-page {
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    min-width: 600px;
+    margin: 0 auto;
+    object-fit: contain;
 }
 
 .image-page img {
     width: 84px;
     height: 100px;
+    margin-top: 20px;
 }
 
 .learning {
-    width: 1004px;
     height: 300px;
     opacity: 1;
-    margin-left: 30vh;
 }
 
+
 .text-h2 {
-    text-align: left;
     letter-spacing: 8px;
 }
 
@@ -259,7 +271,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    gap: 31vh;
+    gap: 70px;
 }
 
 .image-page__2 img {
@@ -268,14 +280,11 @@ h1 {
 }
 
 .Other-skills {
-    width: 1004px;
     height: 300px;
     opacity: 1;
-    margin-left: 30vh;
 }
 
 .text-h3 {
-    text-align: left;
     letter-spacing: 8px;
 }
 
@@ -283,7 +292,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    gap: 31vh;
+    gap: 70px;
 }
 
 .image-page__3 img {
@@ -335,7 +344,7 @@ h1 {
 }
 
 .img-portfolio img {
-    width: 500px;
+    width: 470px;
     height: 300px;
     flex-wrap: wrap;
 }
@@ -481,4 +490,53 @@ h1 {
     top: 10px;
     font-weight: 300;
     font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 480px) {
+    body {
+        width: 480px;
+        height: auto;
+    }
+
+    .hero {
+        width: 480px;
+    }
+
+    /* .left-side {
+        display: none;
+    } */
+
+    .right-side {
+        display: none;
+    }
+
+
+    .navbarl {
+        display: none;
+    }
+
+    .image-page img {
+        width: 50px;
+    }
+
+    .image-page__2 img {
+        width: 50px;
+    }
+
+    .image-page__3 img {
+        width: 50px;
+    }
+
+    .description {
+        width: 400px;
+        font-size: 0.9rem;
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        padding: 0 40px;
+    }
+
 }
