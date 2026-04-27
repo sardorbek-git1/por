@@ -169,7 +169,7 @@ h1 {
     display: inline-block;
     padding: 15px 60px;
     margin-bottom: 30px;
-    margin-top: 6x0px;
+    margin-top: 60px;
 }
 
 .name h1 {
@@ -192,8 +192,9 @@ h1 {
 }
 
 .image-explore {
-    margin-top: 60px;
+    margin-top: 120px;
 }
+
 
 .image-skiils {
     text-align: center;
@@ -210,7 +211,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
     text-align: center;
 }
 
@@ -229,11 +229,11 @@ h1 {
 }
 
 .using-now {
-    height: 380px;
+    height: 200px;
     opacity: 1;
     text-align: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .text-h1 {
@@ -245,8 +245,7 @@ h1 {
     margin-top: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 70px;
-    min-width: 600px;
+    gap: 30px;
     margin: 0 auto;
     object-fit: contain;
 }
@@ -258,7 +257,8 @@ h1 {
 }
 
 .learning {
-    height: 300px;
+    margin-top: 70px;
+    height: 150px;
     opacity: 1;
 }
 
@@ -279,9 +279,10 @@ h1 {
     height: 100px;
 }
 
-.Other-skills {
-    height: 300px;
-    opacity: 1;
+
+.skills {
+    height: 1100px;
+    width: auto;
 }
 
 .text-h3 {
@@ -503,11 +504,9 @@ h1 {
 
     .hero {
         width: 480px;
+        height: 400px;
     }
 
-    /* .left-side {
-        display: none;
-    } */
 
     .right-side {
         display: none;
@@ -517,6 +516,11 @@ h1 {
     .navbarl {
         display: none;
     }
+
+    .text1 {
+        width: 450px;
+    }
+
 
     .image-page img {
         width: 50px;
@@ -539,4 +543,29 @@ h1 {
         padding: 0 40px;
     }
 
+    .texts-portfolio {
+        width: 150px;
+        display: none;
+    }
+
+    .learning img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .using-now {
+        width: 300px;
+    }
+
+    .image-page {
+        min-width: none;
+    }
+
+    .skills {
+        height: 850px;
+    }
+
+    .header-box h1 {
+        font-size: 20px;
+    }
 }
