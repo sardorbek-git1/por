@@ -21,9 +21,21 @@ header {
     padding: 20px 50px;
     margin-bottom: 20px;
     justify-content: center;
-    /* position: sticky;
-    top: 0;
-    z-index: 1; */
+}
+
+.navbar2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+.navbar2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
 }
 
 .navbar1 ul {
@@ -507,6 +519,20 @@ h1 {
         height: 400px;
     }
 
+    .navbar2 {
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .navbar2 ul {
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+        font-size: large;
+    }
 
     .right-side {
         display: none;
@@ -567,5 +593,13 @@ h1 {
 
     .header-box h1 {
         font-size: 20px;
+    }
+
+    .name h1 {
+        font-size: 20px;
+    }
+
+    .portfolio-name {
+        font-size: 35px;
     }
 }
